@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.A = New System.Windows.Forms.Label()
         Me.B = New System.Windows.Forms.Label()
         Me.C = New System.Windows.Forms.Label()
@@ -29,16 +30,17 @@ Partial Class Form1
         Me.E = New System.Windows.Forms.Label()
         Me.F = New System.Windows.Forms.Label()
         Me.G = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'A
         '
         Me.A.BackColor = System.Drawing.Color.DimGray
         Me.A.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.A.Location = New System.Drawing.Point(146, 18)
+        Me.A.Location = New System.Drawing.Point(146, 22)
         Me.A.Name = "A"
-        Me.A.Size = New System.Drawing.Size(165, 22)
+        Me.A.Size = New System.Drawing.Size(165, 17)
         Me.A.TabIndex = 0
         '
         'B
@@ -64,9 +66,9 @@ Partial Class Form1
         '
         Me.D.BackColor = System.Drawing.Color.DimGray
         Me.D.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.D.Location = New System.Drawing.Point(146, 323)
+        Me.D.Location = New System.Drawing.Point(146, 322)
         Me.D.Name = "D"
-        Me.D.Size = New System.Drawing.Size(165, 22)
+        Me.D.Size = New System.Drawing.Size(165, 18)
         Me.D.TabIndex = 3
         '
         'E
@@ -91,31 +93,32 @@ Partial Class Form1
         '
         Me.G.BackColor = System.Drawing.Color.DimGray
         Me.G.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.G.Location = New System.Drawing.Point(146, 169)
+        Me.G.Location = New System.Drawing.Point(146, 173)
         Me.G.Name = "G"
-        Me.G.Size = New System.Drawing.Size(165, 22)
+        Me.G.Size = New System.Drawing.Size(165, 17)
         Me.G.TabIndex = 6
         '
-        'TextBox1
+        'Label1
         '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.Control
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.TextBox1.Location = New System.Drawing.Point(12, 399)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.TextBox1.Size = New System.Drawing.Size(230, 62)
-        Me.TextBox1.TabIndex = 7
-        Me.TextBox1.Text = "Ageane Levi A. Madrid                 BSCpE 5-3"
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(23, 386)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(216, 59)
+        Me.Label1.TabIndex = 8
+        Me.Label1.Text = "Ageane Levi A. Madrid             BSCpE 5-3"
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(464, 473)
-        Me.Controls.Add(Me.TextBox1)
+        Me.BackColor = System.Drawing.Color.Black
+        Me.ClientSize = New System.Drawing.Size(464, 451)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.G)
         Me.Controls.Add(Me.F)
         Me.Controls.Add(Me.E)
@@ -123,10 +126,10 @@ Partial Class Form1
         Me.Controls.Add(Me.C)
         Me.Controls.Add(Me.B)
         Me.Controls.Add(Me.A)
+        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.Text = "Seven Segment"
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -137,5 +140,6 @@ Partial Class Form1
     Friend WithEvents E As Label
     Friend WithEvents F As Label
     Friend WithEvents G As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Timer1 As Timer
 End Class
