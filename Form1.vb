@@ -61,6 +61,24 @@
         C.BackColor = Color.Red
     End Sub
 
+    Private Sub number8()
+        A.BackColor = Color.Red
+        B.BackColor = Color.Red
+        C.BackColor = Color.Red
+        D.BackColor = Color.Red
+        E.BackColor = Color.Red
+        F.BackColor = Color.Red
+        G.BackColor = Color.Red
+    End Sub
+
+    Private Sub number9()
+        A.BackColor = Color.Red
+        B.BackColor = Color.Red
+        G.BackColor = Color.Red
+        F.BackColor = Color.Red
+        C.BackColor = Color.Red
+    End Sub
+
     Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub
