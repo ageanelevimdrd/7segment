@@ -22,78 +22,79 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.A = New System.Windows.Forms.Label()
+        Me.B = New System.Windows.Forms.Label()
+        Me.C = New System.Windows.Forms.Label()
+        Me.D = New System.Windows.Forms.Label()
+        Me.E = New System.Windows.Forms.Label()
+        Me.F = New System.Windows.Forms.Label()
+        Me.G = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'Label1
+        'A
         '
-        Me.Label1.BackColor = System.Drawing.Color.DimGray
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.Label1.Location = New System.Drawing.Point(146, 18)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(165, 22)
-        Me.Label1.TabIndex = 0
+        Me.A.BackColor = System.Drawing.Color.DimGray
+        Me.A.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
+        Me.A.Location = New System.Drawing.Point(146, 18)
+        Me.A.Name = "A"
+        Me.A.Size = New System.Drawing.Size(165, 22)
+        Me.A.TabIndex = 0
         '
-        'Label2
+        'B
         '
-        Me.Label2.BackColor = System.Drawing.Color.DimGray
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.Label2.Location = New System.Drawing.Point(317, 40)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(21, 130)
-        Me.Label2.TabIndex = 1
+        Me.B.AccessibleName = ""
+        Me.B.BackColor = System.Drawing.Color.DimGray
+        Me.B.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
+        Me.B.Location = New System.Drawing.Point(313, 40)
+        Me.B.Name = "B"
+        Me.B.Size = New System.Drawing.Size(21, 130)
+        Me.B.TabIndex = 1
         '
-        'Label3
+        'C
         '
-        Me.Label3.BackColor = System.Drawing.Color.DimGray
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.Label3.Location = New System.Drawing.Point(317, 193)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(21, 130)
-        Me.Label3.TabIndex = 2
+        Me.C.BackColor = System.Drawing.Color.DimGray
+        Me.C.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
+        Me.C.Location = New System.Drawing.Point(313, 193)
+        Me.C.Name = "C"
+        Me.C.Size = New System.Drawing.Size(21, 130)
+        Me.C.TabIndex = 2
         '
-        'Label4
+        'D
         '
-        Me.Label4.BackColor = System.Drawing.Color.DimGray
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.Label4.Location = New System.Drawing.Point(146, 323)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(165, 22)
-        Me.Label4.TabIndex = 3
+        Me.D.BackColor = System.Drawing.Color.DimGray
+        Me.D.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
+        Me.D.Location = New System.Drawing.Point(146, 323)
+        Me.D.Name = "D"
+        Me.D.Size = New System.Drawing.Size(165, 22)
+        Me.D.TabIndex = 3
         '
-        'Label5
+        'E
         '
-        Me.Label5.BackColor = System.Drawing.Color.DimGray
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.Label5.Location = New System.Drawing.Point(119, 193)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(21, 130)
-        Me.Label5.TabIndex = 4
+        Me.E.BackColor = System.Drawing.Color.DimGray
+        Me.E.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
+        Me.E.Location = New System.Drawing.Point(123, 193)
+        Me.E.Name = "E"
+        Me.E.Size = New System.Drawing.Size(21, 130)
+        Me.E.TabIndex = 4
         '
-        'Label6
+        'F
         '
-        Me.Label6.BackColor = System.Drawing.Color.DimGray
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.Label6.Location = New System.Drawing.Point(119, 40)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(21, 130)
-        Me.Label6.TabIndex = 5
+        Me.F.BackColor = System.Drawing.Color.DimGray
+        Me.F.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
+        Me.F.Location = New System.Drawing.Point(123, 40)
+        Me.F.Name = "F"
+        Me.F.Size = New System.Drawing.Size(21, 130)
+        Me.F.TabIndex = 5
         '
-        'Label7
+        'G
         '
-        Me.Label7.BackColor = System.Drawing.Color.DimGray
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.Label7.Location = New System.Drawing.Point(146, 169)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(165, 22)
-        Me.Label7.TabIndex = 6
+        Me.G.BackColor = System.Drawing.Color.DimGray
+        Me.G.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
+        Me.G.Location = New System.Drawing.Point(146, 169)
+        Me.G.Name = "G"
+        Me.G.Size = New System.Drawing.Size(165, 22)
+        Me.G.TabIndex = 6
         '
         'TextBox1
         '
@@ -115,13 +116,13 @@ Partial Class Form1
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(464, 473)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.G)
+        Me.Controls.Add(Me.F)
+        Me.Controls.Add(Me.E)
+        Me.Controls.Add(Me.D)
+        Me.Controls.Add(Me.C)
+        Me.Controls.Add(Me.B)
+        Me.Controls.Add(Me.A)
         Me.Name = "Form1"
         Me.Text = "Seven Segment"
         Me.ResumeLayout(False)
@@ -129,12 +130,12 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
+    Friend WithEvents A As Label
+    Friend WithEvents B As Label
+    Friend WithEvents C As Label
+    Friend WithEvents D As Label
+    Friend WithEvents E As Label
+    Friend WithEvents F As Label
+    Friend WithEvents G As Label
     Friend WithEvents TextBox1 As TextBox
 End Class
